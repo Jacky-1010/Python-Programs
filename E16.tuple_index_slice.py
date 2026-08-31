@@ -1,0 +1,6 @@
+colour=("Green","Blue","Red","Black","White")
+print(colour)
+print(colour[2])
+print(colour[3])
+print(colour.index("White",2))
+print(colour[1:4])
