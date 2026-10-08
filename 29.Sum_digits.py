@@ -9,7 +9,4 @@ a=[]
 for i in range(digit):
     a.append(num%10)
     num=num//10
-j=0
-for i in range(digit):
-    j=j+a[i]
-print(f"Sum of all digits in {x} is {j}")
+print(f"Sum of all digits in {x} is {sum(a)}")
